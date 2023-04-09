@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Simon Weppe"
-  avatar           : "bio-photo.jpg"
+  avatar           : "/images/profile.png?raw=true"
   bio              : "bio bla bla"
   location         : "NZ // France "
   employer         :
