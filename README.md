@@ -15,6 +15,7 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
+## Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
 
 ## To run locally (not on GitHub Pages, to serve on your own computer -USING DOCKER with Jekyll)
 
@@ -46,9 +47,6 @@ note we add the `--host 0.0.0.0` to make sure we can "see" the website in localh
   Server address: http://0.0.0.0:4000/
   Server running... press ctrl-c to stop.
 ```
-
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
-
 
 ## To run locally (not on GitHub Pages, to serve on your own computer -USING LOCAL INSTALL OF JEKYLL)
 
