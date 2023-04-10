@@ -16,7 +16,30 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 See more info at https://academicpages.github.io/
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+
+## To run locally (not on GitHub Pages, to serve on your own computer -USING DOCKER with Jekyll)
+
+1. Use docker from here : https://github.com/BretFisher/jekyll-serve
+1. move to repo with website files
+1. start the docker (exposing a port) : `docker run -v $(pwd):/site -p 4000:4000 -it --entrypoint bash bretfisher/jekyll`
+1. then install some additional dependencies (see https://github.com/BretFisher/jekyll-serve#q-what-if-i-want-to-build-a-site-with-gemfile-dependencies)
+```
+bundle install --retry 5 --jobs 20
+bundle exec jekyll build
+```
+we may need to also add this if the above fails (as mentioned here : https://jekyllrb.com/docs/)
+`bundle add webrick`
+1. then serve the site `bundle exec jekyll serve --host 0.0.0.0` note we add the --host to make sure we can see the website in localhost as explained here  : https://stackoverflow.com/questions/53769821/jekyll-site-in-docker-serving-locally
+1. you should see something this, the site will show here : http://0.0.0.0:4000/
+```
+  GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 10.568 seconds.
+  Auto-regeneration: enabled for '/site/simonweppe.github.io'
+  Server address: http://0.0.0.0:4000/
+  Server running... press ctrl-c to stop.
+```
+
+## To run locally (not on GitHub Pages, to serve on your own computer -USING LOCAL INSTALL OF JEKYLL)
 
 1. Clone the repository and made updates as detailed above
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
