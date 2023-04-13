@@ -1,6 +1,6 @@
 ---
 title: "Tracking a lost racing sail yacht with OpenDrift"
-excerpt: "Using a dispersion model OpenDrift with ocean and wind data to backtrack a lost Mini6.50 off the coast of Portugal <br/><img src='/images/mini650.png'>"
+excerpt: "Using a dispersion model OpenDrift with ocean and wind data to track a lost Mini6.50 off the coast of Portugal <br/><img src='/images/mini650.png'>"
 collection: portfolio
 ---
 
