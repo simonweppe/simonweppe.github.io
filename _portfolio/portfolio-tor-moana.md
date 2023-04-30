@@ -1,9 +1,14 @@
 ---
-title: "Tracking a lost racing sail yacht with OpenDrift"
-excerpt: "Using a dispersion model OpenDrift with ocean and wind data to track a lost Mini6.50 off the coast of Portugal <br/><img src='/images/mini650.png'>"
+title: "The Ocean Race - Scientific Program"
+excerpt: "Using offshore racing yachts to collect critical oceanographic data <br/><img src='/images/TOR.png'>"
 collection: portfolio
 ---
 
-<img src='/images/mini650.png'/>
+Collaborating with offshore sailing races and sailors to collect oceanographic data and raise awareness on 
+Ocean health issues and climate crisis.
 
-https://sites.google.com/ext.theoceanrace.com/the-ocean-race-science/microplastics?authuser=2
+The Ocean Race Europe report [here](https://sites.google.com/ext.theoceanrace.com/the-ocean-race-science/overview?authuser=0)
+
+<img src='/images/TOR.png'>
+
+

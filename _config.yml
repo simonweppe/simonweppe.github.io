@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Simon Weppe's website"
+title                    : "Oceanic Interests"
 title_separator          : "-"
 name                     : &name "Simon Weppe"
 description              : &description "personal description"
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Simon Weppe"
   avatar           : "SW_2.jpg"
-  bio              : "bio bla bla"
+  bio              : "Physical Oceanographer - Wave and Ocean Dispersion Modelling"
   location         : "NZ // France "
-  employer         :
+  employer         : "MetOcean Solutions - MetService NZ"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "simon.weppe@gmail.com"
